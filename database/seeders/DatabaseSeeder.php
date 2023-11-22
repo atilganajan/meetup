@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         \App\Models\User::create([
             'name' => 'Super User',
-            'email' => 'superuser@gmail.com',
+            'email' => 'superuser@example.com',
             'password' => Hash::make('password'),
             'role'=>"superuser",
             'is_approved'=>true,
